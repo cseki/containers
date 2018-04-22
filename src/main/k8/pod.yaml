@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: messages-demo
+spec:
+  containers:
+  - name: messages-demo
+    image: gcr.io/swissquant-risk-engine-cseh/containers:latest
+    ports:
+    - containerPort: 8080
